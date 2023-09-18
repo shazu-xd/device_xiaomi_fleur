@@ -1,3 +1,0 @@
-type ipsec_mon, domain;
-type ipsec_mon_exec, exec_type, file_type, vendor_file_type;
-allow ipsec_mon self:netlink_route_socket { nlmsg_readpriv };
