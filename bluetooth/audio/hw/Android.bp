@@ -1,3 +1,7 @@
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
 cc_library_shared {
     name: "audio.sysbta.default",
     relative_install_path: "hw",

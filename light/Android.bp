@@ -1,3 +1,7 @@
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
 cc_binary {
     name: "android.hardware.lights-service.fleur",
     stem: "android.hardware.lights-service.mediatek",

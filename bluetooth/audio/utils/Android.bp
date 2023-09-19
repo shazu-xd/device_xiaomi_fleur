@@ -1,3 +1,7 @@
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
 cc_library_shared {
     name: "libbluetooth_audio_session_system",
     defaults: ["hidl_defaults"],
