@@ -10,6 +10,10 @@ on init
     chown system system /proc/tp_gesture
     chmod 0660 /proc/tp_gesture
 
+    # Report max frequency to unity tasks
+    write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
+    write /proc/sys/kernel/sched_lib_mask_force 255
+
 on post-fs-data
     # Services
     stop console
