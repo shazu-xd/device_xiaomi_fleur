@@ -1,19 +1,4 @@
-# from variable PRODUCT_DEFAULT_PROPERTY_OVERRIDES
-####################################
 ro.vendor.rc=/vendor/etc/init/hw/
-ro.sf.lcd_density=440
-ro.oem_unlock_supported=1
-ro.surface_flinger.protected_contents=true
-ro.vendor.init.sensor.rc=init.sensor_1_0.rc
-camera.disable_zsl_mode=1
-ro.vendor.mtk_ovl_bringup=0
-ro.logd.kernel=false
-ro.hardware.hwcomposer=mtk_common
-# Removed by post_process_props.py because overridden by ro.vendor.composer_version=2.1
-#ro.vendor.composer_version?=2.1
-####################################
-# from variable PRODUCT_PROPERTY_OVERRIDES
-####################################
 # MIUI props
 drm.service.enabled=true
 debug.mtk_tflite.target_nnapi=29
