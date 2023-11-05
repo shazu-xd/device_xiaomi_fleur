@@ -6,6 +6,7 @@
 
 DEVICE_PATH := device/xiaomi/fleur
 VENDOR_PATH := device/xiaomi/fleur-vendor
+TARGET_KERNEL_CONFIG := fleur_defconfig
 
 # Architecture
 TARGET_ARCH := arm64
