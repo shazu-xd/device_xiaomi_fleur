@@ -49,6 +49,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # Display
 TARGET_SCREEN_DENSITY := 393
 
+# Disable sparse on all filesystem images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_fleur
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_fleur
